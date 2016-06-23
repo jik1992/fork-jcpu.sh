@@ -30,3 +30,5 @@ do
     grep -A 10 "0x${XPID}" ${JSTACK_FILE};
     echo -e "\e[0m";
 done;
+
+echo "finish";
